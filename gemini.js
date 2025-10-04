@@ -2870,7 +2870,7 @@ t = o, (n = localStorage.getItem("geminiChatHistory")) && (t.innerHTML = n), l.a
                         break
                     }
                     return dt = kt(o), dt += "User: ".concat(n, "\n"), c.classList.toggle("hidden", !0), c.classList.toggle("flex", !1), l.value = "", gt(l, a), o.innerHTML += '\n                <div class="chat_prompt mb-4 flex flex-row items-center justify-between">\n                    <div class=""></div>\n                    <div class="flex flex-col items-end justify-center rounded-b-lg rounded-tl-lg bg-blue-700/20 px-3">\n                        <div class="w-auto">\n                            <p>'.concat(n.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"), '</p>\n                        </div>\n                        <div class="text-xs text-gray-500"></div>\n                    </div>\n                </div>'), e.prev = 13, e.next = 16, i.getGenerativeModel({
-                        model: "gemini-1.5-flash-latest",
+                        model: "gemini-2.5-flash-lite",
                         parameters: {
                             temperature: .7,
                             max_tokens: 150,
